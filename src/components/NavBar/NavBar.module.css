@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap");
+
+.DivAll {
+  display: flex;
+  width: 1280px;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.SectionLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Sora", sans-serif;
+}
+
+.SectionLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.curso {
+  height: 46px;
+  cursor: pointer;
+}
+
+.SectionButton {
+  display: flex;
+  height: 46px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  background: #000;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: all 0.3 s;
+
+
+  .scg{
+    fill: white;
+    stroke: white;
+  }
+}
+
+.SectionButton:hover {
+  border-radius: 4px;
+  background: #404040;
+}
+
+.SectionButton:focus {
+  border-radius: 4px;
+  border: 2px solid #000;
+
+  color: black;
+  background-color: transparent;
+
+  .svg{
+    stroke: black;
+  }
+}
+
+.img:focus {
+  width: 20px;
+  height: 20px;
+
+  background-color: transparent;
+}

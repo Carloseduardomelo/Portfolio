@@ -1,0 +1,17 @@
+.git {
+  color: white;
+  fill: white;
+  stroke: white;
+}
+
+.divAll {
+  display: flex;
+  width: 1280px;
+  padding: 0px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sectionIcons {
+}
