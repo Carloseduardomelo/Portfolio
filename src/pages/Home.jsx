@@ -1,4 +1,5 @@
 import Intro from "../components/Intro/Intro"
+import MyExperience from "../components/MyExperience/MyExperience"
 import MySkills from "../components/MySkills/MySkills"
 import NavBar from "../components/NavBar/NavBar"
 
@@ -10,6 +11,7 @@ const Home = () => {
       <NavBar />
       <Intro />
       <MySkills />
+      <MyExperience />
     </div>
   )
 }
