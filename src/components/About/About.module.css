@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;800&display=swap");
+
+.DivAll{
+  display: flex;
+  padding: 60px 80px;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  gap: 50px;
+}
+
+.sectionAboutImg {
+  width: 525px;
+  height: 525px;
+  flex-shrink: 0;
+}
+
+.sectionAboutME {
+  display: flex;
+  height: 572px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sectionAboutTitle {
+  display: flex;
+  padding: 20px 0px;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+
+  color: #000;
+
+  /* Displaytext/Regular */
+  font-family: "Sora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.sectionAboutMe {
+  font-weight: 800;
+}
+
+.sectionAboutDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sectionAboutConterInfs {
+  width: 610px;
+  color:  #71717a;
+
+  /* Paragraph P2/Regular */
+  font-family: 'Sora';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}

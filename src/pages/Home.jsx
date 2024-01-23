@@ -1,3 +1,4 @@
+import About from "../components/About/About"
 import Intro from "../components/Intro/Intro"
 import MyExperience from "../components/MyExperience/MyExperience"
 import MySkills from "../components/MySkills/MySkills"
@@ -12,6 +13,7 @@ const Home = () => {
       <Intro />
       <MySkills />
       <MyExperience />
+      <About />
     </div>
   )
 }
