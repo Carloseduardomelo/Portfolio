@@ -1,0 +1,66 @@
+.DivAll {
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  align-self:stretch ;
+}
+
+.sectionImg {
+  display: flex;
+  width: 594px;
+  height: 476px;
+  align-items: center;
+}
+
+.img {
+  width: 530px;
+  height: 397.735px;
+  flex-shrink: 0;
+}
+
+.sectionDescricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 28px;
+  align-self: stretch;
+}
+
+.sectionNum {
+  color: #fff;
+
+  /* Displaytext/Extra Bold */
+  font-family: "Sora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.sectionName {
+  color: #fff;
+
+  /* Heading H2/Bold */
+  font-family: "Sora";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.sectionParagrafo {
+  color: #71717a;
+
+  /* Paragraph P2/Regular */
+  font-family: "Sora";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
