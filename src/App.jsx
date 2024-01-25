@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
   return (
-  <div>pex</div>
+  <div>app do projeto</div>
   )
 }
 
