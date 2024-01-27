@@ -1,0 +1,39 @@
+.DivAll {
+  display: flex;
+  width: 1440px;
+  padding: 60px 80px;
+  align-items: flex-start;
+}
+
+.SubDivAll {
+  display: flex;
+  width: 1280px;
+  padding: 0px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.SectionTitle {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  color: #000;
+
+  /* Displaytext/Regular */
+  font-family: "Sora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.SubSectionTitle {
+  font-weight: 800;
+}

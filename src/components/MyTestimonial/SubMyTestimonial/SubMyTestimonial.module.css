@@ -1,0 +1,93 @@
+.DivAll{
+  display: flex;
+  width: 370px;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 20px;
+  background: #fff;
+  box-shadow:  0px 5px 18px -9px black;
+
+  margin-bottom: 50px;
+}
+
+.SectionImg {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.SectionDescricao {
+  align-self: stretch;
+  color: #404040;
+  text-align: center;
+
+  /* Button Text 2/Regular */
+  font-family: "Sora";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.32px;
+}
+
+.SectionBarra {
+  width: 120px;
+  height: 2px;
+  background: #000;
+}
+
+.SectionNameTestimonial {
+  align-self: stretch;
+  color: #404040;
+  text-align: center;
+
+  /* Heading H5/Semibold */
+  font-family: "Sora";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+}
+
+.SectionSkill {
+  align-self: stretch;
+  color: #71717a;
+  text-align: center;
+
+  /* Heading H6/Semibold */
+  font-family: "Sora";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
+
+
+.DivAll:hover{
+  color: white;
+  background-color: black;
+
+  transition: all .4s ease ;
+
+  .SectionDescricao{
+    color: white;
+  }
+  .SectionBarra{
+    background-color: white;
+  }
+
+  .SectionNameTestimonial{
+    color: white;
+  }
+  .SectionSkill{
+    color: white;
+  }
+}
