@@ -1,4 +1,5 @@
 import About from "../components/About/About"
+import Contc from "../components/Contc/Contc"
 import Intro from "../components/Intro/Intro"
 import MyExperience from "../components/MyExperience/MyExperience"
 import MyProjects from "../components/MyProjects/MyProjects"
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <MyProjects />
       <MyTestimonial />
+      <Contc />
     </div>
   )
 }

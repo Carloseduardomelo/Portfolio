@@ -37,3 +37,12 @@
 .SubSectionTitle {
   font-weight: 800;
 }
+
+.SectionMyTestominial {
+  display: flex;
+  padding: 40px 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px ;
+  flex-wrap: wrap;
+}

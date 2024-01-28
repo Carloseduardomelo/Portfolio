@@ -8,7 +8,9 @@ const MyTestimonial = () => {
     <div className={style.DivALL}>
       <div className={style.SubDivAll}>
         <p className={style.SectionTitle}>My <span className={style.SubSectionTitle}>Testimonial</span></p>
-        <section>
+        <section className={style.SectionMyTestominial}>
+          <SubMyTestimonial foto={foto}/>
+          <SubMyTestimonial foto={foto}/>
           <SubMyTestimonial foto={foto}/>
         </section>
       </div>

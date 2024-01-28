@@ -2,7 +2,7 @@ import style from "./MySkills.module.css";
 
 const MySkills = () => {
   return (
-    <div className={style.c}>
+    <div className={style.DivAll}>
       <p className={style.sectionMySkills}>
         My <span className={style.sectionMySkillsSubTitle}>Skills</span>
       </p>

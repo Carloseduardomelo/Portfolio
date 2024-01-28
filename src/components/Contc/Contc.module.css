@@ -1,0 +1,171 @@
+.DivAll {
+  display: flex;
+  width: 1440px;
+  padding: 60px 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+}
+
+.SubDivAll {
+  display: flex;
+  width: 1280px;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.SectionInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.SectionInputsHub {
+  display: flex;
+  width: 500px;
+  height: 46px;
+  align-items: center;
+  padding: 8px 12px;
+
+  border: 2px solid black;
+
+  input {
+    width: 100%;
+    height: 90%;
+
+    border: none;
+  }
+}
+
+.SectionInputsHubMaior {
+  display: flex;
+  width: 500px;
+  height: 140px;
+  padding: 8px 12px;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid black;
+
+  input {
+    width: 100%;
+    height: 90%;
+
+    border: none;
+  }
+}
+
+.SectionButton {
+  height: 56px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+
+  button {
+    height: 100%;
+  }
+}
+
+.button {
+  display: flex;
+  height: 46px;
+  padding: 0 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  font-family: "Sora";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.erro {
+  background-color: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SectionAgradecimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.SectionText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.SectionFalar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.Text {
+  align-self: stretch;
+  color: #000;
+
+  /* Displaytext/Extra Bold */
+  font-family: "Sora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.TextSub {
+  align-self: stretch;
+  color: #71717a;
+
+  /* Paragraph P2/Regular */
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.SectionY {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.Text01 {
+  align-self: stretch;
+  color: var(--Primary-Black, #000);
+
+  /* Heading H3/Semibold */
+  font-family: Sora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -0.56px;
+}
